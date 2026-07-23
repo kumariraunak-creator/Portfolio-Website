@@ -1,65 +1,87 @@
-# 🌐 Raunak Kumari - Portfolio Website
+# 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio website!
+A modern and responsive personal portfolio website showcasing my skills, projects, certifications, and achievements as a Computer Science (AI & ML) student.
 
-I am a Computer Science Engineering undergraduate specializing in Artificial Intelligence and Machine Learning. This portfolio showcases my projects, technical skills, internship experience, certifications, and achievements.
+## 🚀 Live Demo
 
-## 🚀 About Me
+🔗 https://kumariraunak-creator.github.io/Portfolio-Website/
 
-- 🎓 B.Tech CSE (AI/ML) Student
-- 💻 AI/ML & Software Development Enthusiast
-- 🌐 Full-Stack and Web Development
-- ☁️ AWS Cloud Foundations
-- 🧠 Interested in Machine Learning and Generative AI
-- 🏆 Solved 100+ DSA problems on LeetCode
+## ✨ Features
 
-## 💼 Internship Experience
+- Responsive Design
+- Modern UI/UX
+- About Me Section
+- Technical Skills
+- Featured Projects
+- Certifications
+- Contact Section
+- Social Media Links
+- GitHub Integration
 
-- Web Developer Intern — InAmigos Foundation
-- Artificial Intelligence & Machine Learning Intern — Code More
+## 🛠️ Tech Stack
 
-## 🛠️ Technical Skills
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub Pages
 
-**Languages:** Python, Java, C, JavaScript, SQL
+## 📂 Project Structure
 
-**Frontend:** HTML5, CSS3, React.js, Responsive Web Design
+```text
+Portfolio-Website/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/
+├── assets/
+└── README.md
+```
 
-**Backend:** Node.js, Express.js, REST APIs
+## 📸 Preview
 
-**Databases:** MongoDB, Firebase, SQL
+(Add a screenshot of your portfolio homepage here.)
 
-**AI/ML:** Machine Learning, Generative AI, Pandas, Streamlit
+```markdown
+![Portfolio Screenshot](images/portfolio-home.png)
+```
 
-**Tools & Cloud:** Git, GitHub, VS Code, AWS Cloud Foundations
+## ⚙️ Run Locally
 
-## 🚀 Featured Projects
+```bash
+git clone https://github.com/kumariraunak-creator/Portfolio-Website.git
+cd Portfolio-Website
+```
 
-- AI Resume Analyzer
-- Serverless Task Manager AWS
-- Loan Prediction
-- Unsupervised Learning Clustering
-- Titanic Survival Prediction
-- NGO Awareness Webpage
-- Healthcare Support App
-- AI Study Planner
+Then open `index.html` in your browser.
 
-## 🏆 Certifications
+## 📌 Sections Included
 
-- AWS Academy Graduate – Cloud Foundations
-- Microsoft Azure AI Fundamentals
-- ReactJS and Node.js – LetsUpgrade
-- Mastering Data Structures & Algorithms using C and C++
-- The Complete SQL Bootcamp
-- Generative AI Certification
+- Home
+- About
+- Skills
+- Projects
+- Certifications
+- Resume
+- Contact
 
-## 📫 Connect With Me
+## 🎯 Featured Projects
 
-- GitHub: kumariraunak-creator
-- LinkedIn: Raunak Kumari
-- Email: kumariraunak1920@gmail.com
+- 🤖 AI Resume Analyzer
+- 💍 Smart Matrimonial Platform
+- 🛒 Smart Self Payment Kiosk
+- 💰 Expense Tracker
+- 📚 AI Study Planner
+
+## 👩‍💻 Author
+
+**Raunak Kumari**
+
+- GitHub: https://github.com/kumariraunak-creator
+- LinkedIn: https://www.linkedin.com/in/raunak-kumari-56913a330/
+- Portfolio: https://kumariraunak-creator.github.io/Portfolio-Website/
 
 ## ⭐ Support
 
-If you like my portfolio or projects, feel free to explore my repositories and give them a star!
-
-© 2026 Raunak Kumari
+If you like this project, don't forget to ⭐ the repository.
