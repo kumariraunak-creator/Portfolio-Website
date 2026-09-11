@@ -1,19 +1,480 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Raunak Kumari | AI/ML Engineer & Full-Stack Developer</title><link rel="stylesheet" href="style.css"></head><body>
-<header><h1>Raunak Kumari</h1><nav><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></nav></header>
-<section class="hero"><img src="profile.jpg" class="profile-img"><h2>Hi, I'm Raunak 👋</h2><h3 class="typing"></h3><p>CSE (AI/ML) undergraduate building AI-powered, cloud, full-stack and responsive web applications.</p><div class="hero-buttons"><a class="btn" href="resume.pdf" download>📄 Download Resume</a><a class="btn" href="https://github.com/kumariraunak-creator" target="_blank">💻 GitHub</a><a class="btn" href="https://www.linkedin.com/in/raunak-kumari-56913a330" target="_blank">🔗 LinkedIn</a></div></section>
-<section id="about"><h2>About Me</h2><p>Computer Science Engineering undergraduate specializing in Artificial Intelligence and Machine Learning with hands-on internship experience in AI/ML and Web Development. I enjoy building practical applications, solving coding problems, and learning modern software technologies.</p></section>
-<section id="experience"><h2>Experience</h2><div class="grid"><article class="card"><h3>Web Developer Intern</h3><b>InAmigos Foundation | Jun–Jul 2026</b><p>Built responsive web interfaces using HTML, CSS and JavaScript, debugged user-facing features, and completed project-based development deliverables.</p></article><article class="card"><h3>AI & Machine Learning Intern</h3><b>Code More | Jun–Jul 2026</b><p>Worked on Python, Pandas, preprocessing, EDA and machine-learning workflows while developing practical AI/ML projects.</p></article></div></section>
-<section id="skills"><h2>Technical Skills</h2><div class="skills"><span>Python</span><span>Java</span><span>C</span><span>JavaScript</span><span>SQL</span><span>HTML5</span><span>CSS3</span><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Firebase</span><span>Machine Learning</span><span>Generative AI</span><span>Pandas</span><span>Streamlit</span><span>DSA</span><span>Git & GitHub</span><span>AWS Cloud</span></div></section>
-<section id="projects"><h2>Featured Projects</h2><div class="grid">
-<article class="card"><h3>AI Resume Analyzer</h3><p>AI-powered resume analysis, ATS evaluation, skill extraction and improvement suggestions using NLP and Generative AI.</p><p class="tech">Python • Streamlit • AI • NLP</p><a class="link" href="https://ai-resume-analyzer-raunakkkk.streamlit.app/" target="_blank">Live Demo</a> <a class="link" href="https://github.com/kumariraunak-creator/AI-Resume-Analyzer" target="_blank">GitHub</a></article>
-<article class="card"><h3>Serverless Task Manager AWS</h3><p>Serverless task management application using AWS S3, CloudFront, API Gateway, Lambda, DynamoDB and Cognito.</p><a class="link" href="https://github.com/kumariraunak-creator/Serverless-Task-Manager-AWS" target="_blank">GitHub</a></article>
-<article class="card"><h3>Loan Prediction</h3><p>End-to-end machine learning workflow built around a loan prediction dataset.</p><a class="link" href="https://github.com/kumariraunak-creator/Mini-AI-Project-Loan-Prediction" target="_blank">GitHub</a></article>
-<article class="card"><h3>Unsupervised Learning Clustering</h3><p>Implementation and comparison of K-Means, Hierarchical Clustering and DBSCAN.</p><a class="link" href="https://github.com/kumariraunak-creator/Unsupervised-Learning-Clustering" target="_blank">GitHub</a></article>
-<article class="card"><h3>Titanic Survival Prediction</h3><p>Machine learning and exploratory data analysis for passenger survival prediction.</p><a class="link" href="https://github.com/kumariraunak-creator/Titanic-Survival-Prediction-" target="_blank">GitHub</a></article>
-<article class="card"><h3>NGO Awareness Webpage</h3><p>Responsive awareness website developed during the InAmigos Foundation internship.</p><a class="link" href="https://github.com/kumariraunak-creator/NGO-Awareness-Webpage" target="_blank">GitHub</a></article>
-<article class="card"><h3>Healthcare Support App</h3><p>Responsive web application supporting patient registration and volunteer assistance workflows.</p><a class="link" href="https://github.com/kumariraunak-creator/healthcare-support-app" target="_blank">GitHub</a></article>
-<article class="card"><h3>AI Study Planner</h3><p>AI-powered personalized study scheduling, task prioritization and progress tracking application.</p><p class="tech">Python • Streamlit • AI Logic</p></article>
-</div><a class="btn center" href="https://github.com/kumariraunak-creator?tab=repositories" target="_blank">View More on GitHub</a></section>
-<section id="certifications"><h2>Certifications & Achievements</h2><div class="grid"><article class="card"><h3>Certifications</h3><p>AWS Academy Graduate – Cloud Foundations</p><p>Microsoft Azure AI Fundamentals</p><p>ReactJS and Node.js – LetsUpgrade</p><p>Mastering DSA using C and C++</p><p>The Complete SQL Bootcamp</p><p>Generative AI Certification</p></article><article class="card"><h3>Achievements</h3><p>🏆 Solved 100+ DSA problems on LeetCode.</p><p>🚀 Participated in multiple college hackathons and technical competitions.</p><p>💻 Built and deployed AI, cloud, full-stack, Android and responsive web applications.</p></article></div></section>
-<section id="contact"><h2>Contact Me</h2><p>📧 kumariraunak1920@gmail.com</p><p>📱 +91 8271022786</p><div class="hero-buttons"><a class="btn" href="mailto:kumariraunak1920@gmail.com">Email Me</a><a class="btn" href="https://github.com/kumariraunak-creator" target="_blank">GitHub</a><a class="btn" href="https://www.linkedin.com/in/raunak-kumari-56913a330" target="_blank">LinkedIn</a></div></section>
-<footer>© 2026 Raunak Kumari | Portfolio</footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raunak Kumari | AI, Cloud & Full-Stack Developer</title>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- FontAwesome Icons & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Raunak<span>Kumari</span></a>
+      
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-item active">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#experience" class="nav-item">Experience</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge"><i class="fa-solid fa-graduation-cap"></i> B.Tech CSE (AI & ML) Student</span>
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Raunak Kumari</span></h1>
+          <h2 class="hero-subtitle"><span id="typingText"></span><span class="cursor">|</span></h2>
+          <p class="hero-description">
+            Passionate Software Developer specializing in Machine Learning, AWS Cloud Architecture, and Full-Stack Web/Mobile applications. Solved 100+ LeetCode problems.
+          </p>
+          
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num">100+</span>
+              <span class="stat-label">LeetCode Solved</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">30+</span>
+              <span class="stat-label">GitHub Repositories</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">SIH '26</span>
+              <span class="stat-label">Smart India Hackathon</span>
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View All Projects
+            </a>
+            <a href="resume.pdf" download class="btn btn-secondary">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/kumariraunak-creator" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/raunak-kumari-56913a330" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/rau._.nak_" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:kumariraunak1920@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="image-glow"></div>
+          <img src="profile.jpg" alt="Raunak Kumari" class="profile-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <i class="fa-solid fa-brain card-icon"></i>
+            <h3>Machine Learning & AI</h3>
+            <p>Building predictive ML models, PCA/t-SNE dimensionality reduction, clustering algorithms, and SIH 2026 AI drone dashboards.</p>
+          </div>
+          <div class="about-card">
+            <i class="fa-solid fa-cloud card-icon"></i>
+            <h3>AWS Cloud Architecture</h3>
+            <p>Designing serverless infrastructure utilizing AWS Lambda, DynamoDB, API Gateway, S3, Cognito, and CloudFront.</p>
+          </div>
+          <div class="about-card">
+            <i class="fa-solid fa-laptop-code card-icon"></i>
+            <h3>Full-Stack & Mobile Development</h3>
+            <p>Creating React web applications, React Native mobile apps, and Node.js REST APIs backed by MongoDB Atlas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Internships Section -->
+    <section id="experience" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Internship Experience</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">August 2026</span>
+              <h3>Artificial Intelligence Intern</h3>
+              <h4>InAmigos Foundation (IAF)</h4>
+              <p>Implemented practical AI algorithms and worked on intelligent web monitoring features.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">June 2026 – July 2026</span>
+              <h3>AI & Machine Learning Intern</h3>
+              <h4>CodeMore Technologies</h4>
+              <p>Developed supervised & unsupervised ML models, performed data tuning, and analyzed datasets with Scikit-learn.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">June 2026 – July 2026</span>
+              <h3>Web Development Intern</h3>
+              <h4>InAmigos Foundation (IAF)</h4>
+              <p>Built responsive web pages, NGO awareness portals, and interactive frontend interface components.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Machine Learning & AI</h3>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="skill-tag"><i class="fa-solid fa-chart-line"></i> Scikit-Learn</span>
+              <span class="skill-tag"><i class="fa-solid fa-calculator"></i> PCA & t-SNE</span>
+              <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> K-Means & DBSCAN</span>
+              <span class="skill-tag"><i class="fa-solid fa-book"></i> Jupyter Notebook</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Cloud & Databases</h3>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="fa-brands fa-aws"></i> AWS Lambda & S3</span>
+              <span class="skill-tag"><i class="fa-solid fa-database"></i> DynamoDB & Cognito</span>
+              <span class="skill-tag"><i class="fa-solid fa-leaf"></i> MongoDB Atlas</span>
+              <span class="skill-tag"><i class="fa-solid fa-table"></i> DBMS & SQL</span>
+              <span class="skill-tag"><i class="fa-brands fa-java"></i> Java</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Web & Mobile Stack</h3>
+            <div class="skill-tags">
+              <span class="skill-tag"><i class="fa-brands fa-react"></i> React.js</span>
+              <span class="skill-tag"><i class="fa-brands fa-react"></i> React Native</span>
+              <span class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js & Express</span>
+              <span class="skill-tag"><i class="fa-solid fa-code"></i> TypeScript</span>
+              <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Real Projects</h2>
+          <div class="underline"></div>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="aiml">AI & ML</button>
+          <button class="filter-btn" data-filter="cloud">Cloud & Full-Stack</button>
+          <button class="filter-btn" data-filter="web">Web & Mobile</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- 1. Aerosave Dashboard (SIH 2026) -->
+          <div class="project-card" data-category="aiml">
+            <div class="project-content">
+              <span class="project-badge">Smart India Hackathon 2026</span>
+              <h3 class="project-title">Aerosave Rescue Dashboard</h3>
+              <p class="project-description">
+                AI-Powered Autonomous Search & Rescue Drone Command & Monitoring Dashboard designed for real-time disaster management.
+              </p>
+              <div class="project-tech">
+                <span>AI Monitoring</span>
+                <span>HTML5</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/Aerosave-rescue-dashboard" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. AWS Serverless Task Manager -->
+          <div class="project-card" data-category="cloud">
+            <div class="project-content">
+              <span class="project-badge">AWS Cloud Architecture</span>
+              <h3 class="project-title">Serverless Task Manager</h3>
+              <p class="project-description">
+                Cloud task management platform built using AWS S3, CloudFront, API Gateway, Lambda, DynamoDB, and Cognito.
+              </p>
+              <div class="project-tech">
+                <span>AWS Lambda</span>
+                <span>DynamoDB</span>
+                <span>S3 & Cognito</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/Serverless-Task-Manager-AWS" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Smart Matrimonial Platform -->
+          <div class="project-card" data-category="cloud">
+            <div class="project-content">
+              <span class="project-badge">Full-Stack DBMS</span>
+              <h3 class="project-title">Smart Matrimonial & Event Platform</h3>
+              <p class="project-description">
+                DBMS-based full-stack matrimonial service platform built using React, Node.js, Express.js, and MongoDB Atlas.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/smart-matrimonial-event-platform" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. ScanNGo AI -->
+          <div class="project-card" data-category="web">
+            <div class="project-content">
+              <span class="project-badge">React Native App</span>
+              <h3 class="project-title">ScanNGo AI Self-Checkout</h3>
+              <p class="project-description">
+                Smart retail self-checkout mobile app allowing shoppers to scan product barcodes, manage carts, and pay digitally.
+              </p>
+              <div class="project-tech">
+                <span>React Native</span>
+                <span>TypeScript</span>
+                <span>Mobile App</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/scango-ai" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Mini AI Loan Prediction -->
+          <div class="project-card" data-category="aiml">
+            <div class="project-content">
+              <span class="project-badge">Machine Learning</span>
+              <h3 class="project-title">AI Loan Prediction Pipeline</h3>
+              <p class="project-description">
+                End-to-End machine learning workflow trained on Loan Prediction datasets using Scikit-Learn algorithms.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>Scikit-Learn</span>
+                <span>ML Model</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/Mini-AI-Project-Loan-Prediction" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Dimensionality Reduction -->
+          <div class="project-card" data-category="aiml">
+            <div class="project-content">
+              <span class="project-badge">Data Science</span>
+              <h3 class="project-title">Dimensionality Reduction (PCA & t-SNE)</h3>
+              <p class="project-description">
+                Implementation of Principal Component Analysis and t-SNE for complex dataset dimensionality reduction and visualization.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>PCA & t-SNE</span>
+                <span>Jupyter</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/Dimensionality-Reduction-Techniques" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Healthcare Support App -->
+          <div class="project-card" data-category="web">
+            <div class="project-content">
+              <span class="project-badge">Web Application</span>
+              <h3 class="project-title">Healthcare Support Portal</h3>
+              <p class="project-description">
+                Mini healthcare portal allowing patients to register for medical assistance and volunteers to sign up easily.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/healthcare-support-app" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. Birthday Surprise Experience -->
+          <div class="project-card" data-category="web">
+            <div class="project-content">
+              <span class="project-badge">Interactive Web</span>
+              <h3 class="project-title">Birthday Surprise Experience</h3>
+              <p class="project-description">
+                Premium web experience with custom CSS animations, background music, dynamic gallery, gift timeline, and finale.
+              </p>
+              <div class="project-tech">
+                <span>CSS Animations</span>
+                <span>JavaScript Audio</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/kumariraunak-creator/birthday-surprise-experience" target="_blank" rel="noopener" class="project-link">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Let's Connect & Build Together!</h3>
+            <p>I am open to Software Engineering, Machine Learning, and Cloud Development opportunities. Feel free to contact me!</p>
+            
+            <div class="contact-details">
+              <a href="mailto:kumariraunak1920@gmail.com" class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>kumariraunak1920@gmail.com</p>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/raunak-kumari-56913a330" target="_blank" rel="noopener" class="contact-item">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <p>linkedin.com/in/raunak-kumari-56913a330</p>
+                </div>
+              </a>
+
+              <a href="https://github.com/kumariraunak-creator" target="_blank" rel="noopener" class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                  <h4>GitHub</h4>
+                  <p>github.com/kumariraunak-creator</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Raunak Kumari. Built with ❤️ & Code</p>
+      <div class="footer-socials">
+        <a href="https://github.com/kumariraunak-creator" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/raunak-kumari-56913a330" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/rau._.nak_" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
